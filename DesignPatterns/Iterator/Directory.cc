@@ -73,7 +73,7 @@ int main() {
     Directory mydir;
     mydir.addFile("CCP Manifesto", 1);
     mydir.addFile("Marxism is goated", 2);
-    mydir.addFile("Caroline Kierstead is a Fatass", 3);
+    mydir.addFile("Caroline Kierstead is the best.", 3);
     mydir.addFile("Hitler in Paris: A Memoir", 4);
 
     std::cout << "Iterator through the directory: " << std::endl;
