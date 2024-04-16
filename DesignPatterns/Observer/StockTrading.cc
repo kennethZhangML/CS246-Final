@@ -83,5 +83,12 @@ int main() {
         st.notifyObservers();
     }
 
+    // detaching trader1 from stock price subject
+    st.detach(trader1);
+
+    while (st.runBacktest()) {
+        st.notifyObserver();
+    }
+
     return 0;
 }
