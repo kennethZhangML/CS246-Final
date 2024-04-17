@@ -68,6 +68,9 @@
         "iomanip": "cpp",
         "stack": "cpp",
         "span": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "__tree": "cpp",
+        "list": "cpp",
+        "map": "cpp"
     }
 }
